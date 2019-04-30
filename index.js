@@ -9,3 +9,9 @@ happyHolidaysTo(name)
 function happyHolidaysTo(name) {
   return 'Happy holidays, you!'
 }
+
+function happyHolidayTo(holiday,name) {
+  var holiday = 'Halloween';
+  var name = 'Kelliann';
+  return 'Happy ${holiday}, ${name}!'
+}
